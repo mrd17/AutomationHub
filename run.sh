@@ -1,5 +1,6 @@
  #!/bin/bash
 
+apt-get update
 snap install go --classic
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
