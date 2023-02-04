@@ -8,7 +8,7 @@ go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 git clone https://github.com/danielmiessler/SecLists.git
 go install github.com/ffuf/ffuf@latest
 
-cd go/bin
+cd /root/go/bin
 
 mv httpx /usr/local/bin/ 
 mv fluf /usr/local/bin/ 
