@@ -6,6 +6,10 @@ Use:
 Before running this scripts run following 3 commands manually :
 
 ```
+sudo apt-get update
+```
+
+```
 sudo apt install gcc
 
 sudo apt install -y libpcap-dev
